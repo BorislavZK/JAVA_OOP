@@ -2,8 +2,8 @@ package _02_PointInRectangle;
 
 public class Rectangle {
 
-    Point bottomLeft;
-    Point topRight;
+    private Point bottomLeft;
+    private Point topRight;
 
     public Rectangle(Point bottomLeft, Point topRight) {
         this.bottomLeft = bottomLeft;
@@ -12,11 +12,13 @@ public class Rectangle {
 
     public boolean contains(Point point){
 
-        boolean xAxis = point.getX() <= bottomLeft.getX() && point.getX() <= topRight.getX();
-        boolean yAxis = point.getY() <= topRight.getY() && point.getY() <= bottomLeft.getY();
+        boolean horizontal = this.bottomLeft.getX() <= point.getX() && this.topRight.getX() >= point.getX();
+        boolean vertical = this.bottomLeft.getY() <= point.getY() && this.topRight.getY() >= point.getY();
 
-        return xAxis && yAxis;
+        return horizontal && vertical;
+
     }
+
 
 
 }
