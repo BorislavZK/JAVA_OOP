@@ -1,4 +1,4 @@
-package HotelReservation;
+package WorkingWithAbstraction.HotelReservation;
 
 import java.util.Scanner;
 

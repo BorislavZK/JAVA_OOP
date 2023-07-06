@@ -1,4 +1,4 @@
-package _02_PointInRectangle;
+package WorkingWithAbstraction._02_PointInRectangle;
 
 import java.util.Arrays;
 import java.util.Scanner;

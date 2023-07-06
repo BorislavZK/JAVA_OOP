@@ -1,4 +1,4 @@
-package _02_PointInRectangle;
+package WorkingWithAbstraction._02_PointInRectangle;
 
 public class Rectangle {
 

@@ -1,4 +1,4 @@
-package HotelReservation;
+package WorkingWithAbstraction.HotelReservation;
 
 public class PriceCalculator {
     public static double calculatePrice(double pricePerDay, int days, Main.Season season, Main.Discount discount) {
