@@ -22,7 +22,7 @@ test case for deposit-interest (https://www.testdome.com/questions/quality-assur
 _________________|___________________|_______________|__________________
     1            |        99         |      18       |    Unavailable
     2            |        10001      |      18       |    Unavailable
-    3            |        100        |      18       |    1.0%
+    3            |        100        |      18       |    test.0%
     4            |        999        |      18       |    1.0%
     5            |        1000       |      18       |    1.3%
     6            |        4999       |      18       |    1.3%
