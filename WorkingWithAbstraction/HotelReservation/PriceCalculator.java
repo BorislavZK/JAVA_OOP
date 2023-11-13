@@ -1,10 +1,17 @@
 package WorkingWithAbstraction.HotelReservation;
 
 public class PriceCalculator {
-    public static double calculatePrice(double pricePerDay, int days, Main.Season season, Main.Discount discount) {
 
-        double basePrice = pricePerDay * days * season.getMultiplier();
 
-        return basePrice * discount.getDiscount();
+    public static double calculatePrice(double pricePerDay, int days, Season season, DiscountType discountType) {
+
+        double price = pricePerDay * days;
+
+        price = price * season.getMultiplier();
+
+        price = price - price * (discountType.getPercent() / 100);
+
+        return price;
+
     }
 }

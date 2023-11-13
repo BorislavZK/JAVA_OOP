@@ -12,7 +12,7 @@ public class Main {
                 .mapToInt(Integer::parseInt).toArray();
 
         //"{bottomLeftX} {bottomLeftY} {topRightX} {topRightY}".
-
+  
         int bottomLeftX = rectangleCoordinates[0];
         int bottomLeftY = rectangleCoordinates[1];
         int topRightX = rectangleCoordinates[2];
